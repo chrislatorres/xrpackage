@@ -381,6 +381,7 @@ const xrTypeAdders = {
 
     const iframe = document.createElement('iframe');
     iframe.src = '/' + p.main;
+    iframe.allow = 'monetization';
     iframe.style.position = 'absolute';
     iframe.style.top = '-10000px';
     iframe.style.left = '-10000px';
