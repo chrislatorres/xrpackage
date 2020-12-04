@@ -1845,7 +1845,7 @@ self.addEventListener('fetch', event => {
             if (LOCAL_DEV) {
               pathname = match[1];
             } else {
-              pathname = 'https://static.xrpackage.org' + match[1];
+              pathname = 'https://xrpk.metavly.com' + match[1];
             }
             pathnameChanged = true;
           }
